@@ -44,7 +44,6 @@ body,#root{
 .input-user>input {
   width: 70%;
   margin: 2vh 0;
-  background: white;
   border-radius: 10px;
   padding: 10px 10px;
   background: rgba(255, 255, 255, 0.2);
@@ -52,9 +51,46 @@ body,#root{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-color: rgba(239, 108, 0, 0.5);
 }
 
+.button-login{
+  /* margin:15px 0 0 0; */
+  margin: auto;
+  width: 70%;
+}
+.button-login>button{
+  background: rgba(239, 108, 0, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(239, 108, 0, 0.3);
+  padding: 10px 32px;
+  color: #757575;
+  width: 100%;
+  margin-top: 20px;
+}
+.button-login>button:hover{
+  background-color: rgba(239, 108, 0, 0.5);
+  color:whitesmoke;
+}
+.text-signUp{
+  color: #757575;
+  margin-top: 15px;
+}
+.text-signUp span{
+  font-size:14px;
+  padding: 0 5px;
+  text-decoration: underline;
+}
+.text-signUp span:hover{
+  text-decoration-color: rgba(239, 108, 0, 0.5);
+  color:rgba(239, 108, 0, 0.5);;
+}
+/* .input-user>input:hover,.input-user>input:active,.input-user>input:focus{
+  border-color: rgba(239, 108, 0, 0.5);
+} */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 

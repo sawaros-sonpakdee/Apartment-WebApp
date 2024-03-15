@@ -8,12 +8,19 @@ function App() {
     <div className="Login" class="container d-flex align-items-center justify-content-center">
       <div class="login">
         <div class="login-logo">
-        <img src={loginLogo} alt="login-logo"/>
+          <img src={loginLogo} alt="login-logo" />
         </div>
         <div className="input-user">
           <input type='text' placeholder='Email' />
           <input type="password" placeholder='Password' />
+          <div class="button-login">
+            <button>Login</button>
+          </div>
+          <div class="text-signUp">
+            <p><span>Forgot Password ?</span>or<span>Sign Up</span></p>
+          </div>
         </div>
+
       </div>
     </div>
   );
