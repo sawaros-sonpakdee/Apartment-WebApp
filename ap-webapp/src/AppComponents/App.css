@@ -1,0 +1,71 @@
+body,#root{
+  background-color: aliceblue;
+  margin: 0 0;
+  height: 100vh;
+}
+.container{
+  height: 100%;
+}
+.login {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.middle-page {
+  margin-top: 50vh;
+}
+
+.login-logo {
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.login-logo>img{
+  max-width: 96px;
+}
+.input-user {
+  margin: 0 auto;
+  padding: 10vh 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-user>input {
+  width: 70%;
+  margin: 2vh 0;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
